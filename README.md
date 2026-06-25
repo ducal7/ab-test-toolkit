@@ -1,5 +1,8 @@
 # ab-test-toolkit
 
+[![CI](https://github.com/ducal7/ab-test-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/ducal7/ab-test-toolkit/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
+
+
 A small, reusable **A/B test analysis toolkit** plus a worked, end-to-end report.
 It packages the statistics an experimentation analyst reaches for every day —
 power & sample-size planning, frequentist tests with confidence intervals, CUPED
