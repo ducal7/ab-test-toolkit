@@ -1,0 +1,27 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Generated data (regenerate with `make data`)
+data/
+*.csv
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Keep small committed result artifacts:
+#   results/*.png and results/*.md ARE tracked (see README Results section).
+!results/

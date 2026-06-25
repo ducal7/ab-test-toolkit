@@ -1,0 +1,65 @@
+{
+  "config": {
+    "n_per_group": 5000,
+    "true_effect": 0.2,
+    "base_mean": 10.0,
+    "corr_strength": 0.8,
+    "noise_sd": 1.0,
+    "pre_mean": 10.0,
+    "pre_sd": 1.0,
+    "base_rate": 0.2,
+    "conversion_lift": 0.04,
+    "seed": 42
+  },
+  "power_analysis": {
+    "n_per_group_means_for_true_effect": 393,
+    "n_per_group_proportions_for_lift": 1683,
+    "actual_n_per_group": 5000
+  },
+  "proportion_test": {
+    "control_rate": 0.2012,
+    "treatment_rate": 0.2314,
+    "estimate": 0.0302,
+    "z": 3.6675,
+    "pvalue": 0.000245,
+    "ci": [
+      0.0141,
+      0.0463
+    ],
+    "significant": true
+  },
+  "means_test_naive": {
+    "estimate": 0.2736,
+    "t": 10.7053,
+    "pvalue": 0.0,
+    "ci": [
+      0.2235,
+      0.3237
+    ],
+    "ci_halfwidth": 0.0501,
+    "significant": true
+  },
+  "means_test_cuped": {
+    "estimate": 0.2584,
+    "t": 12.8876,
+    "pvalue": 0.0,
+    "ci": [
+      0.2191,
+      0.2977
+    ],
+    "ci_halfwidth": 0.0393,
+    "significant": true
+  },
+  "cuped": {
+    "theta": 0.7885,
+    "rho": 0.6175,
+    "var_before": 1.6512,
+    "var_after": 1.0216,
+    "variance_reduction_pct": 38.13
+  },
+  "peeking": {
+    "naive_false_positive_rate_10_looks": 0.198,
+    "nominal_alpha": 0.05,
+    "pocock_per_look_alpha_10_looks": 0.0106
+  }
+}
